@@ -1,0 +1,3 @@
+,val_loss_nats,bits_per_char,params,train_secs
+LSTM (2 layers),1.5423 ± 0.0070,2.2251 ± 0.0101,280897,45
+Transformer,1.5630 ± 0.0059,2.2549 ± 0.0085,810049,198
