@@ -1,5 +1,4 @@
-# Exact versions used (Google Colab, Python 3.13, T4 GPU). On Colab torch is the CUDA 13.0 build: torch==2.14.1+cu130
-torch==2.14.1
+torch==2.14.1+cu130
 numpy==2.4.6
 pandas==2.2.3
 matplotlib==3.10.0
