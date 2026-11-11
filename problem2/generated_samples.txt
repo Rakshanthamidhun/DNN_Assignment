@@ -1,1 +1,61 @@
-(placeholder: overwritten by problem2.ipynb, Task B generation cell)
+===== temperature 0.2 (top-k 20, 500 characters) =====
+
+
+AUTOLYCUS:
+What thou art the sent of the strange of the country's son,
+That when he would have stands the rest of the strike
+That when I have so see the send of the country
+That which with the send of the compless of my heart,
+And the country to the country of the country
+And the people of the many fair the world of my soul,
+And the country of the fair of the man,
+That the send of the many of the courts of the world.
+
+CORIOLANUS:
+I will not to the courted of the world of his soul,
+And the triv
+
+===== temperature 0.8 (top-k 20, 500 characters) =====
+
+The counter to much a villains of the world:
+What, were is so the hath stop'd with made myself,
+And, my body last hath heart of this men
+When impress he wound was the part to fellows.
+
+KING EDWARD IV:
+Would though art well, his father, good accused
+A scaring as as we not need of the country
+To the duke, my lord, why, madam, I do love a broad.
+
+KING RICHARD III:
+You didle, then have make so bark her must
+To speak on like thee. Come, thou shalt steel
+Tender down, I that it is sitely and that.
+
+GL
+
+===== temperature 1.5 (top-k 20, 500 characters) =====
+I am the deserve, I'll shape'd.
+
+VOLUMNIA:
+Blunt-leavic,
+Even so, let him love to civer,
+Her about take.
+
+Things Citizen:
+Peomfes them, that? foo hou by by into a kat
+And of ill use, misscrett, my miscort by lies:
+Tainn threavens' note truth flumit?
+Is witne: place: as we knees I hast
+how shouldst, sins, drunkihgh to myself:-'
+
+Vound Senio! I'll so the gitiGhfure faction?
+Madar, for heven
+Mets bleish: can, that like twere scepturable:'
+Duke was
+If I?' young like it.
+
+Nurse:
+Good-men:
+It our pati
+
