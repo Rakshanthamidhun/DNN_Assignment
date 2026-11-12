@@ -6,11 +6,12 @@ Recurrent cells (RNN, LSTM, GRU) and a Transformer encoder, all written from scr
 |---|---|
 | **Student** | RAKSHANTHA M |
 | **Student ID** | 2026AK05368 |
-| **Variant** | ID ends in 8 (even), so the 5(c) ablation is **gradient clipping** (norm 1.0 vs none) for the vanilla RNN at T = 200 |
+| **Chosen values** | hidden size **h = 64** (RNN, LSTM, GRU) · LM width **d = 128** (4 heads; Task A encoder d = 64) · seeds **0, 1, 2** |
+| **5(c) ablation** | ID ends in 8 (even), so **gradient clipping** (norm 1.0 vs none) for the vanilla RNN at T = 200 |
 | **Hardware** | Google Colab, T4 GPU |
 | **Run time on a T4** | Problem 1: 17 min · Problem 2: 20 min (includes the optional bonus) · **Total: 37 min** |
 
-> The variants table ("Individualisation") was not included in the released brief, so I assumed hidden size 64, Transformer width d = 128 and seeds 0, 1, 2.
+> As instructed, the variants table is not used: I chose h = 64, d = 128 and seeds 0, 1, 2. With these values the parameter counts equal the ones quoted in the brief (RNN 4,736 · LSTM 18,944 · GRU 14,208 for d = 9; 196,608 block weights for d = 128, d_ff = 512).
 
 ---
 
@@ -95,7 +96,6 @@ Re-running a notebook replaces its own earlier rows in `results.csv`. Data folde
 
 ## Assumptions
 
-- **Variants table missing:** hidden size 64, d = 128, seeds 0, 1, 2.
 - **GRU verification:** PyTorch's candidate-gate hidden bias `b_hn` sits inside `r ⊙ (W_hn h + b_hn)` and cannot be merged into a single bias, so it is set to zero in the library layer before the comparison.
-- **3-token attention example:** the instructor's example was not supplied, so I used my own (Q = K = [[1,0],[0,1],[1,1]], V = [[1,2],[3,4],[5,6]]), worked out by hand and by code.
+- **3-token attention example:** no instructor example is provided, so I made my own (Q = K = [[1,0],[0,1],[1,1]], V = [[1,2],[3,4],[5,6]]), computed by hand (report, section 2.1) and by code; the two agree to four decimals.
 - **Task A:** patches of 8 time steps (16 tokens + CLS); encoder d = 64, 4 heads, 2 layers.
